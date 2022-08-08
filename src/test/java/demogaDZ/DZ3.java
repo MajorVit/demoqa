@@ -33,7 +33,7 @@ public class DZ3 {
         $(".react-datepicker__day--008").click();
         $("#subjectsInput").setValue("Arts").pressEnter();
         $("[for='hobbies-checkbox-1']").click();
-        $("#uploadPicture").uploadFile(new File("src/test/java/picture/test.jpg"));
+        $("#uploadPicture").uploadFile(new File("src/test/resources/test.jpg"));
         $("#currentAddress").setValue("Pervaya 1");
         $("#state").click();
         $(byText("NCR")).click();
